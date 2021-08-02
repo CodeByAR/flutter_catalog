@@ -9,11 +9,15 @@ class HomePage extends StatelessWidget {
     int days = 30;
     return Scaffold(
       appBar: AppBar(
+        // App bar theme is moved to main.dart
+        // backgroundColor: Colors.white,
+        // elevation: 0,
+        // iconTheme: IconThemeData(color: Colors.black),
         title: Text(
           "Catalog App",
-          style: TextStyle(
-            color: Colors.white,
-          ),
+          // style: TextStyle(
+          //   color: Colors.black,
+          // ),
         ),
       ),
       body: Center(
